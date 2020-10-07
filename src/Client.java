@@ -55,6 +55,11 @@ public class Client
         }
     }
 
+    /**
+     * Method to print min and max of long[], and return average
+     * @param array long[]
+     * @return Average of long[].
+     */
     public static long getAverageAndPrintMinMax(long[] array)
     {
         long accumulating = 0; // accumulating total
